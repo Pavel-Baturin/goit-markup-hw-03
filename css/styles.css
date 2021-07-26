@@ -7,12 +7,6 @@
 /* цвет рамки хедера #E5E5E5; */
 /* цвет рамки портфолио #EEEEEE */
 
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
 :root {
   --primary-text-color: #757575;
   --logo-color: #000000;
@@ -169,7 +163,7 @@ address {
 /* Герой */
 
 .hero {
-  width: 1600px;
+  max-width: 1600px;
   background-color: var(--background-color);
   padding-top: 200px;
   padding-bottom: 200px;
@@ -182,6 +176,7 @@ address {
   background-color: var(--background-color);
 
   text-align: center;
+  text-transform: uppercase;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -200,6 +195,7 @@ address {
 
   color: var(--primary-white-color);
   background-color: var(--accent-color);
+  cursor: pointer;
 
   text-align: center;
   font-weight: 700;
@@ -249,7 +245,7 @@ address {
 /* Члены команды */
 
 .team {
-  width: 1600px;
+  max-width: 1600px;
   margin-left: auto;
   margin-right: auto;
 
@@ -296,7 +292,7 @@ address {
 /* Футер */
 .footer-section {
   padding: 60px 0px 60px 215px;
-  width: 1600px;
+  max-width: 1600px;
   margin-left: auto;
   margin-right: auto;
 
@@ -366,6 +362,7 @@ address {
 
   color: var(--title-text-color);
   background-color: var(--button-background-color);
+  cursor: pointer;
 
   font-weight: 500;
   font-size: 16px;
